@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
 
 @LargeTest
 @RunWith(AndroidJUnit4.class)
-public class Espresso_iSeq_1 {
+public class AC_Recorder_1 {
 
     @Rule
     public ActivityScenarioRule<MainActivity> mActivityScenarioRule =
