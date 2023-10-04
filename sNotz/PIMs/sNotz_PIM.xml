@@ -1,0 +1,914 @@
+<PIMS>
+ <PresentationModel> 
+ <PModel>sNotz</PModel>
+
+ <cpmodel> 
+ <cpname>MainActivity</cpname> 
+<widget>
+ <name>SearchButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Search</beh> 
+</widget> 
+<widget>
+ <name>SortButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Sort</beh> 
+</widget> 
+<widget>
+ <name>SettingsButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Settings</beh> 
+</widget> 
+<widget>
+ <name>AddNote</name> 
+ <cat>ActionControl</cat> 
+<beh>I_AddNote</beh> 
+</widget> 
+<widget>
+ <name>Display</name> 
+ <cat>Responder</cat> 
+<beh>S_DisplayNotes</beh> 
+</widget> 
+<widget>
+ <name>SelectNote</name> 
+ <cat>ActionControl</cat> 
+<beh>I_EditNote</beh> 
+</widget> 
+<widget>
+ <name>SelectChecklist</name> 
+ <cat>ActionControl</cat> 
+<beh>I_EditChecklist</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>AddItem</cpname> 
+<widget>
+ <name>Display</name> 
+ <cat>Responder</cat> 
+<beh>S_AddNote</beh> 
+</widget> 
+<widget>
+ <name>AddNote</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Note</beh> 
+</widget> 
+<widget>
+ <name>AddChecklist</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Checklist</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>Note</cpname> 
+<widget>
+ <name>BackButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_MainActivity</beh> 
+</widget> 
+<widget>
+ <name>HideNote</name> 
+ <cat>ActionControl</cat> 
+<beh>S_HideNote</beh> 
+</widget> 
+<widget>
+ <name>Content</name> 
+ <cat>Responder</cat> 
+<beh>S_ChangeText</beh> 
+<beh>S_ChangeContent</beh> 
+</widget> 
+<widget>
+ <name>BackgroundColor</name> 
+ <cat>ActionControl</cat> 
+<beh>I_ColorPicker</beh> 
+</widget> 
+<widget>
+ <name>TextColor</name> 
+ <cat>ActionControl</cat> 
+<beh>I_ColorPicker</beh> 
+</widget> 
+<widget>
+ <name>AddImageDialog</name> 
+ <cat>ActionControl</cat> 
+<beh>I_AddImage</beh> 
+</widget> 
+<widget>
+ <name>AddImage</name> 
+ <cat>ActionControl</cat> 
+<beh>I_FileExplorer</beh> 
+</widget> 
+<widget>
+ <name>Keyboard</name> 
+ <cat>ActionControl</cat> 
+<beh>S_ChangeText</beh> 
+</widget> 
+<widget>
+ <name>SaveButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_MainActivity</beh> 
+<beh>S_SaveNote</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>ChecklistDialog</cpname> 
+<widget>
+ <name>ChecklistName</name> 
+ <cat>ActionControl</cat> 
+<beh>S_ChangeText</beh> 
+<beh>S_ChecklistName</beh> 
+</widget> 
+<widget>
+ <name>CancelButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_MainActivity</beh> 
+</widget> 
+<widget>
+ <name>OkButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Checklist</beh> 
+</widget> 
+<widget>
+ <name>Keyboard</name> 
+ <cat>ActionControl</cat> 
+<beh>S_ChangeText</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>Checklist</cpname> 
+<widget>
+ <name>BackButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_MainActivity</beh> 
+</widget> 
+<widget>
+ <name>SortButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Sort</beh> 
+</widget> 
+<widget>
+ <name>SaveButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_ExitNote</beh> 
+</widget> 
+<widget>
+ <name>EditChecklistItem</name> 
+ <cat>Responder</cat> 
+<beh>S_ChangeText</beh> 
+<beh>S_EditChecklistItem</beh> 
+</widget> 
+<widget>
+ <name>ToggleCheckbox</name> 
+ <cat>ActionControl</cat> 
+<beh>S_ToggleCheckbox</beh> 
+</widget> 
+<widget>
+ <name>Keyboard</name> 
+ <cat>ActionControl</cat> 
+<beh>S_ChangeText</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>ExitNote</cpname> 
+<widget>
+ <name>CancelButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Checklist</beh> 
+</widget> 
+<widget>
+ <name>DiscardButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_MainActivity</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>ShowSearch</cpname> 
+<widget>
+ <name>SearchBar</name> 
+ <cat>Responder</cat> 
+<beh>S_ChangeText</beh> 
+<beh>S_UpdateNotes</beh> 
+</widget> 
+<widget>
+ <name>Display</name> 
+ <cat>Responder</cat> 
+<beh>S_UpdateNotes</beh> 
+</widget> 
+<widget>
+ <name>Keyboard</name> 
+ <cat>ActionControl</cat> 
+<beh>S_ChangeText</beh> 
+<beh>S_UpdateTasks</beh> 
+</widget> 
+<widget>
+ <name>UpButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_MainActivity</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>Sort</cpname> 
+<widget>
+ <name>ShowSortBy</name> 
+ <cat>ActionControl</cat> 
+<beh>I_SortBy</beh> 
+</widget> 
+<widget>
+ <name>ShowShowBy</name> 
+ <cat>ActionControl</cat> 
+<beh>I_ShowBy</beh> 
+</widget> 
+<widget>
+ <name>ReverseOrder</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SortBy</beh> 
+<beh>I_MainActivity</beh> 
+</widget> 
+<widget>
+ <name>SortChecklists</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SortBy</beh> 
+<beh>I_MainActivity</beh> 
+</widget> 
+<widget>
+ <name>SortNotesChecklists</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SortBy</beh> 
+<beh>I_MainActivity</beh> 
+</widget> 
+<widget>
+ <name>SortNotes</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SortBy</beh> 
+<beh>I_MainActivity</beh> 
+</widget> 
+<widget>
+ <name>SortDateModified</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SortBy</beh> 
+<beh>I_MainActivity</beh> 
+</widget> 
+<widget>
+ <name>SortColor</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SortBy</beh> 
+<beh>I_MainActivity</beh> 
+</widget> 
+<widget>
+ <name>SortAZ</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SortBy</beh> 
+<beh>I_MainActivity</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>SettingsPopup</cpname> 
+<widget>
+ <name>SettingsButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Settings</beh> 
+</widget> 
+<widget>
+ <name>QRCode</name> 
+ <cat>ActionControl</cat> 
+<beh>I_QRCode</beh> 
+</widget> 
+<widget>
+ <name>About</name> 
+ <cat>ActionControl</cat> 
+<beh>I_About</beh> 
+</widget> 
+<widget>
+ <name>ScanQRCode</name> 
+ <cat>ActionControl</cat> 
+<beh>I_ScanQRCode</beh> 
+</widget> 
+<widget>
+ <name>ReadFromImage</name> 
+ <cat>ActionControl</cat> 
+<beh>I_FileExplorer</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>About</cpname> 
+<widget>
+ <name>SourceCode</name> 
+ <cat>ActionControl</cat> 
+<beh>Quit</beh> 
+</widget> 
+<widget>
+ <name>PlayStore</name> 
+ <cat>ActionControl</cat> 
+<beh>Quit</beh> 
+</widget> 
+<widget>
+ <name>ReportIssue</name> 
+ <cat>ActionControl</cat> 
+<beh>Quit</beh> 
+</widget> 
+<widget>
+ <name>CancelButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_MainActivity</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>Settings</cpname> 
+<widget>
+ <name>BackButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_MainActivity</beh> 
+</widget> 
+<widget>
+ <name>AppInfoButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_AppInfo</beh> 
+</widget> 
+<widget>
+ <name>AppThemeButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_AppTheme</beh> 
+</widget> 
+<widget>
+ <name>AccentColorButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_ColorPicker</beh> 
+</widget> 
+<widget>
+ <name>PINButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_PIN</beh> 
+</widget> 
+<widget>
+ <name>ShowHiddenNotesButton</name> 
+ <cat>ActionControl</cat> 
+<beh>S_ShowHiddenNotes</beh> 
+</widget> 
+<widget>
+ <name>BackgroundColorButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_ColorPicker</beh> 
+</widget> 
+<widget>
+ <name>TextColorButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_ColorPicker</beh> 
+</widget> 
+<widget>
+ <name>RandomColorsButton</name> 
+ <cat>ActionControl</cat> 
+<beh>S_EnableRandomColors</beh> 
+</widget> 
+<widget>
+ <name>AllowImagesButton</name> 
+ <cat>ActionControl</cat> 
+<beh>S_EnableImages</beh> 
+</widget> 
+<widget>
+ <name>AutoSaveButton</name> 
+ <cat>ActionControl</cat> 
+<beh>S_EnableAutoSave</beh> 
+</widget> 
+<widget>
+ <name>ChecklistColorButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_ColorPicker</beh> 
+</widget> 
+<widget>
+ <name>NotesInRowButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_NotesInRow</beh> 
+</widget> 
+<widget>
+ <name>FontSizeButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_FontSize</beh> 
+</widget> 
+<widget>
+ <name>TextStyleButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_TextStyle</beh> 
+</widget> 
+<widget>
+ <name>BackupNotesButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_BackupNotes</beh> 
+</widget> 
+<widget>
+ <name>RestoreNotesButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_RestoreNotes</beh> 
+</widget> 
+<widget>
+ <name>ClearNotesButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_ClearNotes</beh> 
+</widget> 
+<widget>
+ <name>DonationsButton</name> 
+ <cat>ActionControl</cat> 
+<beh>Exit</beh> 
+</widget> 
+<widget>
+ <name>InviteFriendsButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Share</beh> 
+</widget> 
+<widget>
+ <name>WelcomeButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Welcome</beh> 
+</widget> 
+<widget>
+ <name>TranslationsButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Translations</beh> 
+</widget> 
+<widget>
+ <name>RateUsButton</name> 
+ <cat>ActionControl</cat> 
+<beh>Exit</beh> 
+</widget> 
+<widget>
+ <name>SuportButton</name> 
+ <cat>ActionControl</cat> 
+<beh>Exit</beh> 
+</widget> 
+<widget>
+ <name>CreditsButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Credits</beh> 
+</widget> 
+<widget>
+ <name>FAQButton</name> 
+ <cat>ActionControl</cat> 
+<beh>Exit</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>AppTheme</cpname> 
+<widget>
+ <name>AutoTheme</name> 
+ <cat>ActionControl</cat> 
+<beh>S_AppTheme</beh> 
+<beh>I_Settings</beh> 
+</widget> 
+<widget>
+ <name>DarkTheme</name> 
+ <cat>ActionControl</cat> 
+<beh>S_DarkTheme</beh> 
+<beh>I_Settings</beh> 
+</widget> 
+<widget>
+ <name>LightTheme</name> 
+ <cat>ActionControl</cat> 
+<beh>S_LightTheme</beh> 
+<beh>I_Settings</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>ColorPicker</cpname> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>PIN</cpname> 
+<widget>
+ <name>PINInput</name> 
+ <cat>Responder</cat> 
+<beh>S_ChangeText</beh> 
+</widget> 
+<widget>
+ <name>ShowPin</name> 
+ <cat>ActionControl</cat> 
+<beh>S_ShowPIN</beh> 
+</widget> 
+<widget>
+ <name>OkButton</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetPIN</beh> 
+<beh>I_Settings</beh> 
+</widget> 
+<widget>
+ <name>CancelButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Settings</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>NotesInRow</cpname> 
+<widget>
+ <name>NIRDefault</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Set_NIR</beh> 
+</widget> 
+<widget>
+ <name>NIR1</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Set_NIR</beh> 
+</widget> 
+<widget>
+ <name>NIR2</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Set_NIR</beh> 
+</widget> 
+<widget>
+ <name>NIR3</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Set_NIR</beh> 
+</widget> 
+<widget>
+ <name>NIR4</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Set_NIR</beh> 
+</widget> 
+<widget>
+ <name>NIR5</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Set_NIR</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>FontSize</cpname> 
+<widget>
+ <name>Font10</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+<widget>
+ <name>Font11</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+<widget>
+ <name>Font12</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+<widget>
+ <name>Font13</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+<widget>
+ <name>Font14</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+<widget>
+ <name>Font15</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+<widget>
+ <name>Font16</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+<widget>
+ <name>Font17</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+<widget>
+ <name>Font18</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+<widget>
+ <name>Font19</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+<widget>
+ <name>Font20</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+<widget>
+ <name>Font21</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+<widget>
+ <name>Font22</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+<widget>
+ <name>Font23</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+<widget>
+ <name>Font24</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+<widget>
+ <name>Font25</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetFontSize</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>TextStyle</cpname> 
+<widget>
+ <name>StyleRegular</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetStyle</beh> 
+</widget> 
+<widget>
+ <name>StyleItalics</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetStyle</beh> 
+</widget> 
+<widget>
+ <name>StyleBold</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetStyle</beh> 
+</widget> 
+<widget>
+ <name>StlyeBoldItalics</name> 
+ <cat>ActionControl</cat> 
+<beh>S_SetStyle</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>BackupNotes</cpname> 
+<widget>
+ <name>Backup</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Backup</beh> 
+</widget> 
+<widget>
+ <name>BackupText</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Backup</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>BackupNameDialog</cpname> 
+<widget>
+ <name>BackupName</name> 
+ <cat>Responder</cat> 
+<beh>S_ChangeText</beh> 
+<beh>S_SetBackupName</beh> 
+</widget> 
+<widget>
+ <name>CancelButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Settings</beh> 
+</widget> 
+<widget>
+ <name>OkButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Settings</beh> 
+</widget> 
+<widget>
+ <name>Keyboard</name> 
+ <cat>ActionControl</cat> 
+<beh>S_ChangeText</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>ClearNotes</cpname> 
+<widget>
+ <name>DeleteButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_MainActivity</beh> 
+</widget> 
+<widget>
+ <name>CancelButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Settings</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>Translations</cpname> 
+<widget>
+ <name>TranslateCommon</name> 
+ <cat>ActionControl</cat> 
+<beh>Exit</beh> 
+</widget> 
+<widget>
+ <name>TranslateNotz</name> 
+ <cat>ActionControl</cat> 
+<beh>Exit</beh> 
+</widget> 
+<widget>
+ <name>CancelButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Settings</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>Start</cpname> 
+<widget>
+ <name>StartButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_StartApp</beh> 
+</widget> 
+</cpmodel> 
+
+ <cpmodel> 
+ <cpname>Introduction</cpname> 
+<widget>
+ <name>SkipButton</name> 
+ <cat>ActionControl</cat> 
+<beh>I_Skip</beh> 
+</widget> 
+</cpmodel> 
+</PresentationModel> 
+<PIM>
+<transition>
+<start>ExitNote</start> 
+ <end>Checklist</end> 
+ <ibeh>I_Checklist</ibeh> 
+ </transition> 
+<transition>
+<start>ExitNote</start> 
+ <end>MainActivity</end> 
+ <ibeh>I_MainActivity</ibeh> 
+ </transition> 
+<transition>
+<start>ShowSearch</start> 
+ <end>MainActivity</end> 
+ <ibeh>I_MainActivity</ibeh> 
+ </transition> 
+<transition>
+<start>ChecklistDialog</start> 
+ <end>Checklist</end> 
+ <ibeh>I_Checklist</ibeh> 
+ </transition> 
+<transition>
+<start>ChecklistDialog</start> 
+ <end>MainActivity</end> 
+ <ibeh>I_MainActivity</ibeh> 
+ </transition> 
+<transition>
+<start>ClearNotes</start> 
+ <end>Settings</end> 
+ <ibeh>I_Settings</ibeh> 
+ </transition> 
+<transition>
+<start>ClearNotes</start> 
+ <end>MainActivity</end> 
+ <ibeh>I_MainActivity</ibeh> 
+ </transition> 
+<transition>
+<start>AddItem</start> 
+ <end>Checklist</end> 
+ <ibeh>I_Checklist</ibeh> 
+ </transition> 
+<transition>
+<start>AddItem</start> 
+ <end>Note</end> 
+ <ibeh>I_Note</ibeh> 
+ </transition> 
+<transition>
+<start>MainActivity</start> 
+ <end>Sort</end> 
+ <ibeh>I_Sort</ibeh> 
+ </transition> 
+<transition>
+<start>MainActivity</start> 
+ <end>Settings</end> 
+ <ibeh>I_Settings</ibeh> 
+ </transition> 
+<transition>
+<start>SettingsPopup</start> 
+ <end>About</end> 
+ <ibeh>I_About</ibeh> 
+ </transition> 
+<transition>
+<start>SettingsPopup</start> 
+ <end>Settings</end> 
+ <ibeh>I_Settings</ibeh> 
+ </transition> 
+<transition>
+<start>About</start> 
+ <end>MainActivity</end> 
+ <ibeh>I_MainActivity</ibeh> 
+ </transition> 
+<transition>
+<start>PIN</start> 
+ <end>Settings</end> 
+ <ibeh>I_Settings</ibeh> 
+ </transition> 
+<transition>
+<start>Note</start> 
+ <end>ColorPicker</end> 
+ <ibeh>I_ColorPicker</ibeh> 
+ </transition> 
+<transition>
+<start>Note</start> 
+ <end>MainActivity</end> 
+ <ibeh>I_MainActivity</ibeh> 
+ </transition> 
+<transition>
+<start>Checklist</start> 
+ <end>ExitNote</end> 
+ <ibeh>I_ExitNote</ibeh> 
+ </transition> 
+<transition>
+<start>Checklist</start> 
+ <end>Sort</end> 
+ <ibeh>I_Sort</ibeh> 
+ </transition> 
+<transition>
+<start>Checklist</start> 
+ <end>MainActivity</end> 
+ <ibeh>I_MainActivity</ibeh> 
+ </transition> 
+<transition>
+<start>Sort</start> 
+ <end>MainActivity</end> 
+ <ibeh>I_MainActivity</ibeh> 
+ </transition> 
+<transition>
+<start>AppTheme</start> 
+ <end>Settings</end> 
+ <ibeh>I_Settings</ibeh> 
+ </transition> 
+<transition>
+<start>BackupNameDialog</start> 
+ <end>Settings</end> 
+ <ibeh>I_Settings</ibeh> 
+ </transition> 
+<transition>
+<start>Translations</start> 
+ <end>Settings</end> 
+ <ibeh>I_Settings</ibeh> 
+ </transition> 
+<transition>
+<start>Settings</start> 
+ <end>Translations</end> 
+ <ibeh>I_Translations</ibeh> 
+ </transition> 
+<transition>
+<start>Settings</start> 
+ <end>ColorPicker</end> 
+ <ibeh>I_ColorPicker</ibeh> 
+ </transition> 
+<transition>
+<start>Settings</start> 
+ <end>TextStyle</end> 
+ <ibeh>I_TextStyle</ibeh> 
+ </transition> 
+<transition>
+<start>Settings</start> 
+ <end>NotesInRow</end> 
+ <ibeh>I_NotesInRow</ibeh> 
+ </transition> 
+<transition>
+<start>Settings</start> 
+ <end>PIN</end> 
+ <ibeh>I_PIN</ibeh> 
+ </transition> 
+<transition>
+<start>Settings</start> 
+ <end>AppTheme</end> 
+ <ibeh>I_AppTheme</ibeh> 
+ </transition> 
+<transition>
+<start>Settings</start> 
+ <end>ClearNotes</end> 
+ <ibeh>I_ClearNotes</ibeh> 
+ </transition> 
+<transition>
+<start>Settings</start> 
+ <end>BackupNotes</end> 
+ <ibeh>I_BackupNotes</ibeh> 
+ </transition> 
+<transition>
+<start>Settings</start> 
+ <end>FontSize</end> 
+ <ibeh>I_FontSize</ibeh> 
+ </transition> 
+<transition>
+<start>Settings</start> 
+ <end>MainActivity</end> 
+ <ibeh>I_MainActivity</ibeh> 
+ </transition> 
+</PIM> 
+<PMR> 
+</PMR> 
+</PIMS>

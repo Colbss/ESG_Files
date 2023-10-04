@@ -1,0 +1,752 @@
+{
+  "package name": "com.sunilpaulmathew.snotz",
+  "output dir": "D:\\Uni\\Y4\\ENGEN582\\SampleApps\\sNotz\\app\\src\\androidTest\\java\\com\\sunilpaulmathew\\snotz",
+  "start activity": "MainActivity",
+  "elements": [
+    {
+      "State Name": "MainActivity",
+      "Widgets": [
+        {
+          "Widget Name": "SearchButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "SortButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "SettingsButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "AddNote",
+          "Identifiers": {
+            "ID": "add_note_card"
+          }
+        },
+        {
+          "Widget Name": "Display",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "SelectNote",
+          "Identifiers": {
+            "ID": "contents"
+          }
+        },
+        {
+          "Widget Name": "SelectChecklist",
+          "Identifiers": {
+            "ID": "contents"
+          }
+        }
+      ]
+    },
+    {
+      "State Name": "AddItem",
+      "Widgets": [
+        {
+          "Widget Name": "Display",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "AddNote",
+          "Identifiers": {
+            "Contains Text": "Note",
+            "Android ID": "text1"
+          }
+        },
+        {
+          "Widget Name": "AddChecklist",
+          "Identifiers": {
+            "Android ID": "text1",
+            "Text": "Checklist"
+          }
+        }
+      ]
+    },
+    {
+      "State Name": "Note",
+      "Widgets": [
+        {
+          "Widget Name": "BackButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "HideNote",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Content",
+          "Identifiers": {
+            "ID": "contents"
+          }
+        },
+        {
+          "Widget Name": "BackgroundColor",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "TextColor",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "AddImageDialog",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "AddImage",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Keyboard",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "SaveButton",
+          "Identifiers": {
+            "ID": "save_button"
+          }
+        }
+      ]
+    },
+    {
+      "State Name": "ChecklistDialog",
+      "Widgets": [
+        {
+          "Widget Name": "ChecklistName",
+          "Identifiers": {
+            "Class": "AppCompatEditText",
+            "Text": ""
+          }
+        },
+        {
+          "Widget Name": "CancelButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "OkButton",
+          "Identifiers": {
+            "Android ID": "button1",
+            "Text": "OK"
+          }
+        },
+        {
+          "Widget Name": "Keyboard",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "Checklist",
+      "Widgets": [
+        {
+          "Widget Name": "BackButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "SortButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "SaveButton",
+          "Identifiers": {
+            "ID": "save_button"
+          }
+        },
+        {
+          "Widget Name": "EditChecklistItem",
+          "Identifiers": {
+            "Text": "",
+            "ID": "title"
+          }
+        },
+        {
+          "Widget Name": "ToggleCheckbox",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Keyboard",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "ExitNote",
+      "Widgets": [
+        {
+          "Widget Name": "CancelButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "DiscardButton",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "ShowSearch",
+      "Widgets": [
+        {
+          "Widget Name": "SearchBar",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Display",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Keyboard",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "UpButton",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "Sort",
+      "Widgets": [
+        {
+          "Widget Name": "ShowSortBy",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "ShowShowBy",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "ReverseOrder",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "SortChecklists",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "SortNotesChecklists",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "SortNotes",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "SortDateModified",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "SortColor",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "SortAZ",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "SettingsPopup",
+      "Widgets": [
+        {
+          "Widget Name": "SettingsButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "QRCode",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "About",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "ScanQRCode",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "ReadFromImage",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "About",
+      "Widgets": [
+        {
+          "Widget Name": "SourceCode",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "PlayStore",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "ReportIssue",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "CancelButton",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "Settings",
+      "Widgets": [
+        {
+          "Widget Name": "BackButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "AppInfoButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "AppThemeButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "AccentColorButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "PINButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "ShowHiddenNotesButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "BackgroundColorButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "TextColorButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "RandomColorsButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "AllowImagesButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "AutoSaveButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "ChecklistColorButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "NotesInRowButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "FontSizeButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "TextStyleButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "BackupNotesButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "RestoreNotesButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "ClearNotesButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "DonationsButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "InviteFriendsButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "WelcomeButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "TranslationsButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "RateUsButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "SuportButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "CreditsButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "FAQButton",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "AppTheme",
+      "Widgets": [
+        {
+          "Widget Name": "AutoTheme",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "DarkTheme",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "LightTheme",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "ColorPicker",
+      "Widgets": []
+    },
+    {
+      "State Name": "PIN",
+      "Widgets": [
+        {
+          "Widget Name": "PINInput",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "ShowPin",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "OkButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "CancelButton",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "NotesInRow",
+      "Widgets": [
+        {
+          "Widget Name": "NIRDefault",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "NIR1",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "NIR2",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "NIR3",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "NIR4",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "NIR5",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "FontSize",
+      "Widgets": [
+        {
+          "Widget Name": "Font10",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Font11",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Font12",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Font13",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Font14",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Font15",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Font16",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Font17",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Font18",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Font19",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Font20",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Font21",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Font22",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Font23",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Font24",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Font25",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "TextStyle",
+      "Widgets": [
+        {
+          "Widget Name": "StyleRegular",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "StyleItalics",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "StyleBold",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "StlyeBoldItalics",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "BackupNotes",
+      "Widgets": [
+        {
+          "Widget Name": "Backup",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "BackupText",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "BackupNameDialog",
+      "Widgets": [
+        {
+          "Widget Name": "BackupName",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "CancelButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "OkButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "Keyboard",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "ClearNotes",
+      "Widgets": [
+        {
+          "Widget Name": "DeleteButton",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "CancelButton",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "Translations",
+      "Widgets": [
+        {
+          "Widget Name": "TranslateCommon",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "TranslateNotz",
+          "Identifiers": {}
+        },
+        {
+          "Widget Name": "CancelButton",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "Start",
+      "Widgets": [
+        {
+          "Widget Name": "StartButton",
+          "Identifiers": {}
+        }
+      ]
+    },
+    {
+      "State Name": "Introduction",
+      "Widgets": [
+        {
+          "Widget Name": "SkipButton",
+          "Identifiers": {
+            "Text": "SKIP",
+            "ID": "skip"
+          }
+        }
+      ]
+    }
+  ],
+  "interaction sequence": [
+    {
+      "Action": "Tap",
+      "State": "Introduction",
+      "Widget": "SkipButton",
+      "Value": "1",
+      "ID": "1"
+    },
+    {
+      "Action": "Tap",
+      "State": "MainActivity",
+      "Widget": "AddNote",
+      "Value": "1",
+      "ID": "2"
+    },
+    {
+      "Action": "Tap",
+      "State": "AddItem",
+      "Widget": "AddChecklist",
+      "Value": "1",
+      "ID": "3"
+    },
+    {
+      "Action": "Tap",
+      "State": "ChecklistDialog",
+      "Widget": "ChecklistName",
+      "Value": "1",
+      "ID": "4"
+    },
+    {
+      "Action": "Type Text",
+      "State": "ChecklistDialog",
+      "Widget": "ChecklistName",
+      "Value": "My Checklist",
+      "ID": "5"
+    },
+    {
+      "Action": "Tap",
+      "State": "ChecklistDialog",
+      "Widget": "OkButton",
+      "Value": "1",
+      "ID": "6"
+    },
+    {
+      "Action": "Tap",
+      "State": "Checklist",
+      "Widget": "EditChecklistItem",
+      "Value": "1",
+      "ID": "7"
+    },
+    {
+      "Action": "Type Text",
+      "State": "Checklist",
+      "Widget": "EditChecklistItem",
+      "Value": "Apples\\n",
+      "ID": "8"
+    },
+    {
+      "Action": "Tap",
+      "State": "Checklist",
+      "Widget": "EditChecklistItem",
+      "Value": "1",
+      "ID": "9"
+    },
+    {
+      "Action": "Type Text",
+      "State": "Checklist",
+      "Widget": "EditChecklistItem",
+      "Value": "Eggs\\n",
+      "ID": "10"
+    },
+    {
+      "Action": "Tap",
+      "State": "Checklist",
+      "Widget": "EditChecklistItem",
+      "Value": "1",
+      "ID": "11"
+    },
+    {
+      "Action": "Type Text",
+      "State": "Checklist",
+      "Widget": "EditChecklistItem",
+      "Value": "Bread",
+      "ID": "12"
+    },
+    {
+      "Action": "Tap",
+      "State": "Checklist",
+      "Widget": "SaveButton",
+      "Value": "1",
+      "ID": "13"
+    },
+    {
+      "Action": "Assert",
+      "State": "MainActivity",
+      "Widget": "SelectChecklist",
+      "Value": "Eggs",
+      "ID": "14"
+    }
+  ],
+  "output name": "sNotz_ESG_1"
+}

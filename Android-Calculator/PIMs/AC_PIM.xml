@@ -1,0 +1,113 @@
+<PIMS>
+ <PresentationModel> 
+ <PModel></PModel>
+ <cpmodel> 
+
+ <cpname>MainActivity</cpname> 
+<widget>
+ <name>ButtonAppend1</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Append1</beh> 
+</widget> 
+<widget>
+ <name>ButtonAppend2</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Append2</beh> 
+</widget> 
+<widget>
+ <name>ButtonAppend3</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Append3</beh> 
+</widget> 
+<widget>
+ <name>ButtonAppend4</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Append4</beh> 
+</widget> 
+<widget>
+ <name>ButtonAppend5</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Append5</beh> 
+</widget> 
+<widget>
+ <name>ButtonAppend6</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Append6</beh> 
+</widget> 
+<widget>
+ <name>ButtonAppend7</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Append7</beh> 
+</widget> 
+<widget>
+ <name>ButtonAppend8</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Append8</beh> 
+</widget> 
+<widget>
+ <name>ButtonAppend9</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Append9</beh> 
+</widget> 
+<widget>
+ <name>ButtonAppend0</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Append0</beh> 
+</widget> 
+<widget>
+ <name>ButtonClear</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Clear</beh> 
+</widget> 
+<widget>
+ <name>ButtonParentheses</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Parentheses</beh> 
+</widget> 
+<widget>
+ <name>ButtonPercent</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Percent</beh> 
+</widget> 
+<widget>
+ <name>ButtonDivide</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Divide</beh> 
+</widget> 
+<widget>
+ <name>ButtonMultiply</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Multiply</beh> 
+</widget> 
+<widget>
+ <name>ButtonSubtract</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Subtract</beh> 
+</widget> 
+<widget>
+ <name>ButtonEqual</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Equal</beh> 
+</widget> 
+<widget>
+ <name>ButtonAppendDot</name> 
+ <cat>ActionControl</cat> 
+<beh>S_AppendDot</beh> 
+</widget> 
+<widget>
+ <name>NumberInput</name> 
+ <cat>Responder</cat> 
+<beh>S_UpdateInput</beh> 
+</widget> 
+<widget>
+ <name>ButtonAddition</name> 
+ <cat>ActionControl</cat> 
+<beh>S_Addition</beh> 
+</widget> 
+</cpmodel> 
+</PresentationModel> 
+<PIM>
+</PIM> 
+<PMR> 
+</PMR> 
+</PIMS>

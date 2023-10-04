@@ -1,0 +1,217 @@
+{
+  "package name": "zone.eloy.projects.androidcalculator",
+  "output dir": "D:\\Uni\\Y4\\ENGEN582\\SampleApps\\android-calculator\\app\\src\\androidTest\\java\\zone\\eloy\\projects\\androidcalculator",
+  "start activity": "MainActivity",
+  "elements": [
+    {
+      "State Name": "Android-Calculator",
+      "Widgets": []
+    },
+    {
+      "State Name": "MainActivity",
+      "Widgets": [
+        {
+          "Widget Name": "ButtonAppend1",
+          "Identifiers": {
+            "ID": "button_one"
+          }
+        },
+        {
+          "Widget Name": "ButtonAppend2",
+          "Identifiers": {
+            "ID": "button_two"
+          }
+        },
+        {
+          "Widget Name": "ButtonAppend3",
+          "Identifiers": {
+            "ID": "button_three"
+          }
+        },
+        {
+          "Widget Name": "ButtonAppend4",
+          "Identifiers": {
+            "ID": "button_four"
+          }
+        },
+        {
+          "Widget Name": "ButtonAppend5",
+          "Identifiers": {
+            "ID": "button_five"
+          }
+        },
+        {
+          "Widget Name": "ButtonAppend6",
+          "Identifiers": {
+            "ID": "button_six"
+          }
+        },
+        {
+          "Widget Name": "ButtonAppend7",
+          "Identifiers": {
+            "ID": "button_seven"
+          }
+        },
+        {
+          "Widget Name": "ButtonAppend8",
+          "Identifiers": {
+            "ID": "button_eight"
+          }
+        },
+        {
+          "Widget Name": "ButtonAppend9",
+          "Identifiers": {
+            "ID": "button_nine"
+          }
+        },
+        {
+          "Widget Name": "ButtonAppend0",
+          "Identifiers": {
+            "ID": "button_zero"
+          }
+        },
+        {
+          "Widget Name": "ButtonClear",
+          "Identifiers": {
+            "ID": "button_clear"
+          }
+        },
+        {
+          "Widget Name": "ButtonParentheses",
+          "Identifiers": {
+            "ID": "button_parentheses"
+          }
+        },
+        {
+          "Widget Name": "ButtonPercent",
+          "Identifiers": {
+            "ID": "button_percent"
+          }
+        },
+        {
+          "Widget Name": "ButtonDivide",
+          "Identifiers": {
+            "Text": "÷",
+            "ID": "button_division"
+          }
+        },
+        {
+          "Widget Name": "ButtonMultiply",
+          "Identifiers": {
+            "ID": "button_multiplication"
+          }
+        },
+        {
+          "Widget Name": "ButtonSubtract",
+          "Identifiers": {
+            "ID": "button_subtraction"
+          }
+        },
+        {
+          "Widget Name": "ButtonEqual",
+          "Identifiers": {
+            "ID": "button_equal"
+          }
+        },
+        {
+          "Widget Name": "ButtonAppendDot",
+          "Identifiers": {
+            "ID": "button_dot"
+          }
+        },
+        {
+          "Widget Name": "NumberInput",
+          "Identifiers": {
+            "ID": "textView_input_numbers"
+          }
+        },
+        {
+          "Widget Name": "ButtonAddition",
+          "Identifiers": {
+            "ID": "button_addition"
+          }
+        }
+      ]
+    }
+  ],
+  "interaction sequence": [
+    {
+      "Action": "Assert",
+      "State": "MainActivity",
+      "Widget": "NumberInput",
+      "Value": "",
+      "ID": "1"
+    },
+    {
+      "Action": "Tap",
+      "State": "MainActivity",
+      "Widget": "ButtonParentheses",
+      "Value": "1",
+      "ID": "2"
+    },
+    {
+      "Action": "Tap",
+      "State": "MainActivity",
+      "Widget": "ButtonAppend5",
+      "Value": "1",
+      "ID": "3"
+    },
+    {
+      "Action": "Tap",
+      "State": "MainActivity",
+      "Widget": "ButtonAppend0",
+      "Value": "1",
+      "ID": "4"
+    },
+    {
+      "Action": "Tap",
+      "State": "MainActivity",
+      "Widget": "ButtonDivide",
+      "Value": "1",
+      "ID": "5"
+    },
+    {
+      "Action": "Tap",
+      "State": "MainActivity",
+      "Widget": "ButtonAppend5",
+      "Value": "1",
+      "ID": "6"
+    },
+    {
+      "Action": "Tap",
+      "State": "MainActivity",
+      "Widget": "ButtonParentheses",
+      "Value": "1",
+      "ID": "7"
+    },
+    {
+      "Action": "Tap",
+      "State": "MainActivity",
+      "Widget": "ButtonMultiply",
+      "Value": "1",
+      "ID": "8"
+    },
+    {
+      "Action": "Tap",
+      "State": "MainActivity",
+      "Widget": "ButtonAppend2",
+      "Value": "1",
+      "ID": "9"
+    },
+    {
+      "Action": "Tap",
+      "State": "MainActivity",
+      "Widget": "ButtonEqual",
+      "Value": "1",
+      "ID": "10"
+    },
+    {
+      "Action": "Assert",
+      "State": "MainActivity",
+      "Widget": "NumberInput",
+      "Value": "20",
+      "ID": "11"
+    }
+  ],
+  "output name": "AC_Test_1"
+}
